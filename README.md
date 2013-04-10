@@ -19,12 +19,17 @@ Or install it yourself as:
 ## Usage
 
 Return all bank holidays
+
     holidays = BankHolidays.all
 
     holidays.each do |holiday|
       puts holiday.date
       puts holiday.summary
     end
+
+Use a custom URL
+
+    holidays = BankHolidays.all('http://example.com/my-own-calendar-file.ics')
 
 ## Contributing
 
