@@ -26,9 +26,6 @@ Return all bank holidays
       puts holiday.summary
     end
 
-Use your own url
-    holidays = BankHolidays.all('http://example.com/my-own-bank-holidays-file.ics')
-
 ## Contributing
 
 1. Fork it
