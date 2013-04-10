@@ -18,5 +18,13 @@ module BankHolidays
       @date = date
       @summary = summary
     end
+
+    def as_json
+      {
+        title: summary,
+        start: date.rfc822,
+        end: date.rfc822
+      }
+    end
   end
 end
