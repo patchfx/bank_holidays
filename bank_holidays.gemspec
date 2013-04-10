@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["richard@justaddpixels.com"]
   spec.description   = %q{Ruby lib for retrieving UK bank holiday dates}
   spec.summary       = %q{Ruby lib for retrieving UK bank holiday dates}
-  spec.homepage      = ""
+  spec.homepage      = "http://github.com/patchfx/bank_holidays"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
