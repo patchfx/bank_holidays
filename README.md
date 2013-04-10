@@ -1,6 +1,6 @@
 # BankHolidays
 
-TODO: Write a gem description
+Ruby lib for retrieving UK bank holidays
 
 ## Installation
 
@@ -18,7 +18,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Return all bank holidays
+  holidays = BankHolidays.all
+
+  holidays.each do |holiday|
+    puts holiday.date
+    puts holiday.summary
+  end
+
+Use your own url
+  holidays = BankHolidays.all('http://example.com/my-own-bank-holidays-file.ics')
 
 ## Contributing
 
